@@ -51,7 +51,7 @@ h1::after{
     display:flex;
     flex-direction: row;
     padding:100px;
-    padding:100px 100px 55px 100px;
+    padding:100px 100px 75px 100px;
     justify-content: space-around;
 }
 .cards{
@@ -61,7 +61,7 @@ h1::after{
     align-items:center;
 }
 .card{
-    margin:17px;
+    margin:25px;
     background-color: hsl(300, 43%, 22%);
     max-width:400px;
     font-size:15px;
@@ -124,7 +124,8 @@ h1::after{
         margin-bottom:10px;
     }
     .cards{
-        justify-content: stretch;
+        justify-content: center;
+        align-items: stretch;
     }
 }
 @media only screen and (max-width:955px){  
@@ -132,6 +133,6 @@ h1::after{
         flex-direction: column;
         height:auto;
         width:100%;
-        justify-content: stretch;
+        align-items: center;
     }
 }
