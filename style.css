@@ -77,11 +77,14 @@ h1::after{
     border-radius:7px;
     line-height:1.5rem;
 }
-.card h4{
+.card h3{
     display:inline-block;
     color: hsl(300, 24%, 96%);
+    font-size: .815rem;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
 }
-.card h4::after{
+.card h3::after{
     display:block;
     content:"Verified Buyer";
     font-weight:500;
