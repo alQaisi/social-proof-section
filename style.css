@@ -33,6 +33,9 @@ h1::after{
     background-color:hsl(300, 24%, 96%);
     padding:15px;
     border-radius:12px;
+    font-size:1rem;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
 }
 .rating{
     max-width:500px;
